@@ -3,7 +3,6 @@
 sudo -v # ask for password only at the beginning
 
 
-
 #install homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
@@ -12,6 +11,8 @@ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 brew update
 brew upgrade
 brew tap homebrew/versions
+brew tap homebrew/dupes
+brew tap josegonzalez/homebrew-php
 brew tap phinze/homebrew-cask
 
 
@@ -20,17 +21,11 @@ brew install coreutils git vim mackup
 
 #install gui apps (with cask)
 brew cask install adium
-brew cask install airfoil
-brew cask install alfred
 brew cask install disk-inventory-x
-brew cask install divvy
 brew cask install dropbox
-brew cask install f-lux
 brew cask install firefox
 brew cask install flash
-brew cask install gas-mask
 brew cask install google-chrome
-brew cask install google-drive
 brew cask install hipchat
 brew cask install iterm2
 brew cask install node
@@ -38,13 +33,8 @@ brew cask install sequel-pro
 brew cask install silverlight
 brew cask install Skype
 brew cask install spotify
-brew cask install sublime-text
-brew cask install testflight
 brew cask install toggldesktop
-brew cask install utorrent
 brew cask install the-unarchiver
-brew cask install vagrant
-brew cask install virtualbox
 brew cask install vlc
 brew cask install witch
 
@@ -57,9 +47,3 @@ ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/lo
 
 #install capistrano
 gem sources -a http://gems.github.com/
-
-#note - sticking to capistrano v2 for now...
-sudo gem install capistrano -v "=2.15.5"
-
-#install vagrant-cachier (to speed up provisioning)
-vagrant plugin install vagrant-cachier
