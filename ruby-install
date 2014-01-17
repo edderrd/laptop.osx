@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo -v # ask for password only at the beginning
+
+\curl -sSL https://get.rvm.io | bash -s stable --ruby

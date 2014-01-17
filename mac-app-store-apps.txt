@@ -1,0 +1,18 @@
+Blackmagic Disk Speed Test.app
+Caffeine.app
+Dash.app
+Day One.app
+Evernote.app
+GarageBand.app
+Growl.app
+iMovie.app
+iPhoto.app
+Keynote.app
+Kindle.app
+Numbers.app
+Pages.app
+Pocket.app
+Sparrow.app
+The Unarchiver.app
+Twitter.app
+Type2Phone.app
