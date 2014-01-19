@@ -4,3 +4,5 @@ sudo -v # ask for password only at the beginning
 
 brew install mariadb
 brew install php54 php54-apc php54-imagick php54-intl php54-mcrypt php54-xdebug
+curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin
+mv /usr/local/bin/composer{.phar,}

@@ -62,6 +62,7 @@ brew cask install xbmc
 brew cask install sshfs
 brew cask install steam
 brew cask install minecraft
+brew cask install appdelete 
 
 
 #allow brew cask apps to be found via alfred
