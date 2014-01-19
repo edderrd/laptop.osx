@@ -21,14 +21,14 @@ brew install coreutils git vim mackup
 
 # extra libraries
 brew install ack coreutils gettext jpeg macvim readline xz apple-gcc42 cowsay
-brew install git libevent mariadb s-lang youtube-dl asciidoc cscope git-flow 
+brew install git libevent s-lang youtube-dl asciidoc cscope git-flow 
 brew install libgpg-error mcrypt sqlite zlib autoconf ctags gnu-getopt libksba 
 brew install mobile-shell tidy zsh automake curl gnu-sed libpng newt tig 
 brew install autossh docbook htop-osx libtool nmap tmux bash docbook-xsl icu4c 
-brew install libxml2 phpunit unixodbc brew-cask figlet iftop libxslt  
+brew install libxml2 unixodbc brew-cask figlet iftop libxslt  
 brew install pkg-config watch byobu freetype  libyaml ossp-uuid popt 
 brew install wget cmake gdbm imap-uw mackup pcre protobuf xmlto 
-brew install node openssl imagemagick
+brew install openssl imagemagick
 
 
 #install gui apps (with cask)
@@ -37,7 +37,6 @@ brew cask install disk-inventory-x
 brew cask install dropbox
 brew cask install firefox
 brew cask install flash
-brew cask install divvy
 brew cask install bettertouchtool
 brew cask install airserver
 brew cask install bittorrent-sync
@@ -49,11 +48,9 @@ brew cask install sequel-pro
 brew cask install silverlight
 brew cask install Skype
 brew cask install spotify
-brew cask install toggldesktop
 brew cask install the-unarchiver
 brew cask install vlc
 brew cask install iterm2
-brew cask install witch
 brew cask install teleport
 
 brew cask install smcfancontrol
@@ -62,7 +59,7 @@ brew cask install xbmc
 brew cask install sshfs
 brew cask install steam
 brew cask install minecraft
-brew cask install appdelete 
+brew cask install appcleaner 
 
 
 #allow brew cask apps to be found via alfred
