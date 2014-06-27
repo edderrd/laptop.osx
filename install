@@ -30,6 +30,7 @@ brew install libxml2 unixodbc brew-cask figlet iftop libxslt
 brew install pkg-config watch byobu freetype  libyaml ossp-uuid popt 
 brew install wget cmake gdbm imap-uw mackup pcre protobuf xmlto 
 brew install openssl imagemagick
+brew install libav ffmpeg
 
 
 #install gui apps (with cask)
